@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Androzic - Android navigation application that uses oziexplorer maps (ozf2, ozfx3)</title>
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="icon" href="/favicon.ico" />
+<script type="text/javascript" src="xfade2.js"></script>
+<style type="text/css">
+body, html {
+	margin: 0;
+	padding: 0;
+	color: #aaa;
+	font-size: 12pt;
+	background-color: #222;
+	background-image: url(back.png);
+	font-family: 'Calibri', Verdana, Arial, Helvetica, sans-serif;
+}
+img {
+	border: 0;
+}
+h1 {
+	color: #a4ca39;
+	font-size: 72px;
+	margin: 0;
+	padding: 0;
+}
+h1 img {
+	margin-right: 30px;
+	vertical-align: middle;
+}
+a {
+	color: #a4ca39;	
+}
+
+h2 {
+	color: #ffffff;
+	font-size: 20pt;
+}
+
+#page {
+	width:1025px;
+	margin:0 auto 0 100px;
+}
+
+#device {
+	margin-top: 50px;
+	float:left;
+	background-image: url(device_nexus.png);
+	width: 279px;
+	height: 580px;
+}
+
+#main {
+	margin-top: 20px;
+	float: right;
+	width: 700px;
+}
+ul.left {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 20px;
+	width: 320px;
+}
+ul.right {
+	float: right;
+	margin: 0;
+	padding: 0 0 0 20px;
+	width: 320px;
+}
+li {
+	list-style-image: url(checkmark-green.gif);
+	list-style-position: outside;
+	padding-left: 3px;
+	margin-bottom: 2px;
+}
+#links {
+	clear: both;
+	padding: 20px 0;
+	font-size: 14pt;
+}
+#links a {
+	padding-right: 8px;
+}
+#download {
+	margin-top: 200px;
+}
+#button {
+	width: 200px;
+	height: 60px;
+	margin: 10px auto;
+	padding: 0pt;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	border-radius: 10px 10px 10px 10px;
+	background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.25);
+	box-shadow: 0pt 2px 6px rgba(0, 0, 0, 0.5), 0pt 1px rgba(255, 255, 255, 0.3) inset, 0pt 10px rgba(255, 255, 255, 0.2) inset, 0pt 10px 20px rgba(255, 255, 255, 0.25) inset, 0pt -15px 30px rgba(0, 0, 0, 0.3) inset;
+	text-align: center;
+}
+#button a {
+	display: block;
+	padding-top: 12px;
+	font-size: 20pt;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+#qr, #donate {
+	float: right;
+}
+#imageContainer { height:387px; }  
+#imageContainer img { display:none; 	
+			position:absolute; 	
+			top:62px; left:21px; 	
+			height:387px;  	
+			width:234px; 	
+			opacity: -0.01; }
+</style>
+<script type="text/javascript" src="https://loader.engage.gsfn.us/loader.js"></script>
+</head>
+<body>
+<a href="https://github.com/andreynovikov/Androzic"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_left_white_ffffff.png" alt="Fork me on GitHub"></a>
+<div id="page">
+<div id="device">
+<div style="position:relative; ">
+<div id="imageContainer">
+<img src="screenshots/screenshot14.png" style="display: block; opacity: 0.95;" />
+<img src="screenshots/screenshot13.png" />
+<img src="screenshots/screenshot15.png" />
+<img src="screenshots/screenshot6.png" />
+<img src="screenshots/screenshot7.png" />
+<img src="screenshots/screenshot10.png" />
+<img src="screenshots/screenshot11.png" />
+<img src="screenshots/screenshot12.png" />
+</div>
+</div>
+<div id="download">
+<div id="button"><a href="http://code.google.com/p/androzic/downloads/list">Download</a></div>
+</div>
+</div>
+<div id="main">
+<div id="donate">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG_global.gif" border="0" name="submit" alt="PayPal — The safer, easier way to pay online.">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+</div>
+<h1><img src="icon.png" width="72" height="72" />Androzic</h1>
+<h2>Android navigation application that uses oziexplorer maps (ozf2, ozfx3)</h2>
+<ul class="left">
+    <li>map index, switch between maps</li>
+    <li>zoom and drag maps</li>
+    <li>downloadable world map for dummies</li>
+    <li>online maps (OSM and more)</li>
+    <li>show current position and movement direction</li>
+    <li>show basic information: speed, course, elevation</li>
+    <li>look ahead</li>
+    <li>show current track and store it in file</li>
+    <li>track in background</li>
+    <li>load/save tracks from/to file</li>
+    <li>track management (name, color, visibility)</li>
+    <li>edit track (cut endings), view track details</li>
+    <li>convert track to route</li>
+    <li>add/project new waypoint</li>
+    <li>waypoint management (name, description, coordinates)</li>
+    <li>load/save waypoints from/to file</li>
+    <li>route management (name, color, visibility)</li>
+    <li>create new/edit existing route</li>
+    <li>load/save route</li>
+    <li>load waypoints, tracks and routes in kml and gpx format</li>
+</ul>
+<ul class="right">
+    <li>navigation to waypoint<img id="qr" src="QR.png" width="62" height="62" /></li>
+    <li>navigation via route</li>
+    <li>HSI and compass displays</li>
+    <li>single speed leaps are filtered</li>
+    <li>units configurable</li>
+    <li>UTM coordinates format support</li>
+    <li>load best scale map periodically</li>
+    <li>search coordinates in various formats</li>
+    <li>search waypoints, tracks, routes</li>
+    <li>search locations via Google geocoder</li>
+    <li>share location and waypoints</li>
+    <li>receive coordinates via text messages</li>
+    <li>share location in real time</li>
+    <li>trackball, d-pad support</li>
+    <li>load arbitrary map</li>
+    <li>portrait and landscape modes</li>
+    <li>tablet (Honeycomb) compatible</li>
+    <li>configurable paths</li>
+    <li>localized to German, Bulgarian, Finnish, Dutch, Polish, French, Turkish, Czech, Spanish, Italian, Hungarian, Russian</li>
+</ul>
+<div id="links">
+<a href="http://market.android.com/details?id=com.androzic">Get in Android Market</a>
+<a href="http://www.twitter.com/Androzic" rel="nofollow">Follow on Twitter</a>
+<a href="http://www.facebook.com/androzic">Like on Facebook</a>&nbsp;
+<a href="http://androzic.googlecode.com/">More...</a>&nbsp;
+</div>
+</div>
+</div>
+<div id="getsat-widget-4018"></div>
+<script type="text/javascript">
+if (typeof GSFN !== "undefined") { GSFN.loadWidget(4018,{"containerId":"getsat-widget-4018"}); }
+</script>
+</body>
+</html>

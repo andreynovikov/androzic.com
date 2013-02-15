@@ -1,0 +1,11 @@
+wiki-name: "Androzic Wiki"
+
+html-dir: "html/wiki"
+template-dir: "templates"
+
+markdown:
+    extensions:
+        - extra
+        - headerid
+        - wikilinks
+        - delins
