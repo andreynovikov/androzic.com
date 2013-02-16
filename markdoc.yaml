@@ -2,6 +2,7 @@ wiki-name: "Androzic Wiki"
 
 html-dir: "html/wiki"
 template-dir: "templates"
+google-analytics: "UA-19854111-2"
 
 markdown:
     extensions:
