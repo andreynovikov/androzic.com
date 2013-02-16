@@ -1,0 +1,4 @@
+#labels Featured
+If you have en-counted a defect (bug) the best approach is to submit an issue via [http://code.google.com/p/androzic/issues/list issue tracker].
+
+If you want to ask something you do not understand or clarify something or discuss something with developer you can use [http://www.facebook.com/pages/Androzic/186018841425318?v=app_2373072738 Facebook Discussions] (in English) or [http://4pda.ru/forum/index.php?showtopic=197410 4PDA.ru thread] (in Russian).
