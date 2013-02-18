@@ -1,7 +1,7 @@
 Adding custom datums
 ====================
 
-Androzic supports OziExplorer datums.dat file. This file has to be placed in the Application folder (configured in Preferences). Example file can be found in Downloads section. Following is the reprint of original OziExplorer help article (with the difference that Androzic supports any number of custom datums):
+Androzic supports OziExplorer datums.dat file. This file has to be placed in the Application folder (configured in Preferences). Example file can be found in [Downloads](../../downloads.html) section. Following is the reprint of original OziExplorer help article (with the difference that Androzic supports any number of custom datums):
 
 Adding User Datums
 ------------------

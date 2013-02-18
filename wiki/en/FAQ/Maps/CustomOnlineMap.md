@@ -40,7 +40,7 @@ File format
 Examples
 --------
 
-Fully functional example file can be found in Downloads section. Following examples are already included in application:
+Fully functional example file can be found in [Downloads](../../downloads.html) section. Following examples are already included in application:
 
     OpenStreetMap Mapnik,osm,0,18,22000,http://{$s}.tile.openstreetmap.org/{$z}/{$x}/{$y}.png,a,b,c`
     MapQuest,mq,0,18,,http://otile{$s}.mqcdn.com/tiles/1.0.0/osm/{$z}/{$x}/{$y}.png,0,1,2,3`

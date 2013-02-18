@@ -7,7 +7,7 @@ Essensials
 ----------
 
 * [Change log](changelog.html)
-* Current functionality
+* [Downloads](downloads.html)
 * [FAQ](FAQ/)
 * [User support](UserSupport.html)
 * [You can help](ProjectContribution.html)
