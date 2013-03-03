@@ -8,5 +8,8 @@ markdown:
     extensions:
         - extra
         - headerid
-        - wikilinks
         - delins
+
+jinja:
+    extensions:
+        - jinja2.ext.loopcontrols
