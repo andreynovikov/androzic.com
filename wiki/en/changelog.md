@@ -1,35 +1,53 @@
 Application change log
 ======================
 
+1.7.3
+-----
+
+_not released yet_
+
+ * Added explanations on first run
+ * Added support for local image references in waypoint descriptions
+ * Added support for navigation to moving object
+ * Added reduced icon set to be installed by default
+ * Updated menu and action icons
+ * Updated some interfaces to be more holo styled
+ * Updated support links and credits
+ * Fixed preloaded routes where not visible
+ * Fixed saving waypoint descriptions with line feeds
+ * Fixed notifications were not removed on crash
+ * Fixed map objects where not cleared on exit
+ * Fixed various crashes
+
 1.7.2
 -----
 
 _13.02.2012_
 
- * `[ENH]` Added double back exit confirmation option
- * `[ENH]` Added Ukrainian localization
- * `[FIX]` Fixed newly installed plugin initialization issue
- * `[FIX]` Fixed crash on initialization on some devices
- * `[FIX]` Fixed crash on opening HSI in landscape mode
- * `[FIX]` Fixed crash on concurrent track update
+ * Added double back exit confirmation option
+ * Added Ukrainian localization
+ * Fixed newly installed plugin initialization issue
+ * Fixed crash on initialization on some devices
+ * Fixed crash on opening HSI in landscape mode
+ * Fixed crash on concurrent track update
 
 1.7.1
 -----
 
 _24.01.2012_
 
- * `[NEW]` support for national character encodings for text Ozi files
- * `[NEW]` option to hide application action bar
- * `[NEW]` plugins can have icons in View menu
- * `[ENH]` reorganized folder structure and settings
- * `[ENH]` support for mock location providers
- * `[ENH]` Remove button is back in waypoint information window
- * `[ENH]` easier clicks on waypoints on modern devices
- * `[ENH]` non-working compass removed
- * `[ENH]` requirement for wake lock permission removed
- * `[FIX]` displaying UTF-8 characters in waypoint description
- * `[FIX]` blocking UI on maps folder preference change
- * `[FIX]` various crashes
+ * Added support for national character encodings for text Ozi files
+ * Added option to hide application action bar
+ * Added support for View menu icons for plugins
+ * Reorganized folder structure and settings
+ * Added support for mock location providers
+ * Returned back Remove button in waypoint information window
+ * Made clicks on waypoints on modern devices easier
+ * Removed non-working compass
+ * Removed requirement for wake lock permission
+ * Fixed displaying UTF-8 characters in waypoint description
+ * Fixed blocking UI on maps folder preference change
+ * Fixed various crashes
 
 1.7
 ---
