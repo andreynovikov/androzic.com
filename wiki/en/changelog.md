@@ -6,6 +6,7 @@ Application change log
 
 _not released yet_
 
+ * Added double tap on map to switch following on/off
  * Added explanations on first run
  * Added support for local image references in waypoint descriptions
  * Added support for navigation to moving object
