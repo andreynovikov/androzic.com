@@ -11,7 +11,8 @@ _not released yet_
  * Added support for local image references in waypoint descriptions
  * Added support for navigation to moving object
  * Added reduced icon set to be installed by default
- * Changed map dim so it does not alter device brightness anymore
+ * Changed search to not block UI and provide much better output
+ * Changed map dim to not alter device brightness anymore
  * Updated menu and action icons
  * Updated some interfaces to be more holo styled
  * Updated support links and credits
