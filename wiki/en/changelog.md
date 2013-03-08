@@ -7,12 +7,15 @@ Application change log
 _not released yet_
 
  * Added double tap on map to switch following on/off
+ * Added tap on route waypoint to open route details
  * Added explanations on first run
  * Added support for local image references in waypoint descriptions
  * Added support for navigation to moving object
  * Added reduced icon set to be installed by default
+ * Added option to hide preloaded routes
  * Changed search to not block UI and provide much better output
  * Changed map dim to not alter device brightness anymore
+ * Changed the way routes are drawn on map
  * Updated menu and action icons
  * Updated some interfaces to be more holo styled
  * Updated support links and credits
