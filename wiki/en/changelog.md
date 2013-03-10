@@ -4,7 +4,7 @@ Application change log
 1.7.3
 -----
 
-_not released yet_
+_10.03.2013__
 
  * Added double tap on map to switch following on/off
  * Added tap on route waypoint to open route details
@@ -13,6 +13,7 @@ _not released yet_
  * Added support for navigation to moving object
  * Added reduced icon set to be installed by default
  * Added option to hide preloaded routes
+ * Added Serbian localization
  * Changed search to not block UI and provide much better output
  * Changed map dim to not alter device brightness anymore
  * Changed the way routes are drawn on map
@@ -28,7 +29,7 @@ _not released yet_
 1.7.2
 -----
 
-_13.02.2012_
+_13.02.2013_
 
  * Added double back exit confirmation option
  * Added Ukrainian localization
@@ -40,7 +41,7 @@ _13.02.2012_
 1.7.1
 -----
 
-_24.01.2012_
+_24.01.2013_
 
  * Added support for national character encodings for text Ozi files
  * Added option to hide application action bar
@@ -58,7 +59,7 @@ _24.01.2012_
 1.7
 ---
 
-_13.01.2012_
+_13.01.2013_
 
  * `[NEW]` plugins support
  * `[NEW]` preload routes from files
