@@ -4,7 +4,7 @@ Application change log
 1.7.3
 -----
 
-_10.03.2013__
+_11.03.2013_
 
  * Added double tap on map to switch following on/off
  * Added tap on route waypoint to open route details
