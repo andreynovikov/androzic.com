@@ -1,6 +1,24 @@
 Application change log
 ======================
 
+1.7.4
+-----
+
+_8.04.2013_
+
+* Added action bar on 2.x devices
+* Added ability to export current track in various formats
+* Added ability to show full current track
+* Added support for line width and color in KML tracks
+* Changed tracking to write log in database
+* Removed separate tracking service (and icon)
+* Optimized track drawing
+* Optimized UI for performance
+* Made track width configurable
+* Updated track management UI
+* Updated notification icons
+* Fixed accepting clicks on hidden route waypoints
+
 1.7.3
 -----
 
