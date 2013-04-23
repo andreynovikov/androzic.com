@@ -1,6 +1,18 @@
 Application change log
 ======================
 
+1.7.5
+-----
+
+_23.04.2013_
+
+* Added missing online map tile generation from parent zooms
+* Added extra precision user setting for speed and distance
+* Added map drawing pause when application is in background or screen is off
+  (reduces network data usage for online maps and saves battery)
+* Optimized maps management to make map drawing smoother
+* Fixed waypoint icons were indexed by Gallery app on ICS devices
+
 1.7.4
 -----
 
