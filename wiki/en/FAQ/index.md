@@ -15,8 +15,9 @@ Maps
  2. [Where to get maps?](../MapRepositories.html)
  3. [How to create a map?](Maps/MapCreation.html)
  4. [How to add custom online map?](Maps/CustomOnlineMap.html)
- 5. [How to add custom datum?](Maps/CustomDatum.html)
- 6. [What is better: ozf2 or ozfx3?](../OziExplorer/Ozf2Ozfx3.html)
+ 5. [How to use SAS.Planet cache?](Maps/SASPlanetMaps.html)
+ 6. [How to add custom datum?](Maps/CustomDatum.html)
+ 7. [What is better: ozf2 or ozfx3?](../OziExplorer/Ozf2Ozfx3.html)
 
 Waypoints
 ---------
